@@ -1,0 +1,13 @@
+Anotações da apresentação:
+- Falto a parte de atores. 
+- A palavra 'sistema' sempre deve estar como sujeito da frase.
+
+Ap1
+- Apresentação executiva.
+- Mostar a apresentação do projeto ao cliente.
+- Apresentação curta: max 5 mins.
+
+1-O que é o projeto
+2-Quem nos somos
+3-O processo de desenvolvimento do projeto
+4-Artefato(não explicar todos e sim os mais desafiadores), 5w2h, requisitos(funcionais e não funcionais), detalhes, casos de uso, mostar o repositorio, prototipos de tela.
