@@ -1,0 +1,72 @@
+Home 
+
+  return (
+    <Base>
+      {dados.map((ele, index) => (
+        <Container key={index}>
+          <Top_card>{ele.nome}</Top_card>
+          <Down_card>
+            <div className={`card ${activeCards[index] ? "active" : ""}`}>
+              {activeCards[index] && (
+                <p style={{ background: "var(--secundaria)", width: "28vw", height: "180px", borderRadius: "0px 0px 5px 5px", marginLeft: "-5px",}}>Informações sobre o projeto</p>
+              )}
+            </div>
+            <Botao2 onClick={() => toggleCard(index)}>
+              {activeCards[index] ? <IoIosArrowUp id="setaocima"/> : <IoIosArrowDown id="setaobaixo"/>}
+            </Botao2>
+          </Down_card>
+        </Container>
+      ))}
+    </Base>
+  );
+};
+
+computadores
+
+[
+   {
+      "id" : 1,
+      "nome" : "Projeto Barber Shop",
+      "descricao" : "Projeto: Barber shop"
+   },
+   { 
+      "id" : 2,
+      "nome" : "Projeto Microsoft",
+      "descricao" : "Projeto Microsoft"
+   },
+   {
+      "id" : 3,
+      "nome" : "Projeto Meta",
+      "descricao" : "Projeto Meta"
+   },
+   { 
+      "id" : 4,
+      "nome" : "Projeto Iphone",
+      "descricao" : "Projeto Iphone"
+   },
+   { 
+      "id" : 5,
+      "nome" : "Projeto Coca-cola",
+      "descricao" : "Projeto Coca-cola"
+   },
+   { 
+      "id" : 6,
+      "nome" : "Projeto Pepsi",
+      "descricao" : "Projeto Pepsi"
+   },
+   { 
+      "id" : 7,
+      "nome" : "Projeto Zara",
+      "descricao" : "Projeto Zara"
+   },
+   { 
+      "id" : 8,
+      "nome" : "Projeto Android",
+      "descricao" : "Projeto Android"
+   },
+   { 
+      "id" : 9,
+      "nome" : "Projeto Instagram",
+      "descricao" : "Projeto Instagram"
+   }
+]
